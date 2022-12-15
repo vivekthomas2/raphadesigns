@@ -22,13 +22,13 @@ body{
 }
 .circle1{
     position: absolute;
-    bottom: 350px;
+    bottom: 300px;
     left:800px;
     width: 700px;
     height:700px;
     background: rgba(204, 72, 182, 0.938);
     border-radius: 50%;
-    clip-path: circle(500px at top 850px);
+    z-index: -1;
 }
 .nav-bar ul li{
    display: inline-block;
