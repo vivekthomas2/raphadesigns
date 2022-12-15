@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color:#74A1E5;  
+}
+.nav-bar{
+    margin: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.logo{
+    color:white;
+    font-size: 15px;
+}
+.spacer {
+    flex: 1 1 auto;
+}
+.circle1{
+    position: absolute;
+    bottom: 350px;
+    left:800px;
+    width: 700px;
+    height:700px;
+    background: rgba(204, 72, 182, 0.938);
+    border-radius: 50%;
+    clip-path: circle(500px at top 850px);
+}
+.nav-bar ul li{
+   display: inline-block;
+   list-style: none;
+   margin:10px 15px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+.main{
+    padding: 100px;
+    align-items: center;
+}
+.circle2{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(220, 0, 240, 0.699);
+    border-radius: 250px;
+}
+.main-right{
+    padding-top: 180px;
+    padding-left: 30px;
+    color: #fff;
+    font-size: 35px;
+}
+.main-right h3{
+    font-size: 25px ;
+}
+.btn1{
+    padding:6px 25px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    background-color: rgb(54, 54, 206);
+    border-radius: 30px;
+}
+.btn2{
+    padding:6px 25px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    background-color: rgb(54, 54, 206);
+    border-radius: 30px;
+}
+
+.details{
+    padding-top:100px;
+    padding-bottom: 200px;
+    background-color: green;
+    background-attachment: fixed;
+}
+.details h1{
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 90px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.details p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.details2{
+    padding:200px;
+    background-color: orchid;
+    background-attachment: fixed;
+}
+.right{
+    color: #fff;
+    font-size: 25px;
+    padding-left: 0650px;
+}
+.left{
+    color: #fff;
+    font-size: 25px;
+}
+
+.details3{
+    background-color: mediumseagreen;
+    background-attachment: fixed;
+}
+.details3 h1{
+    padding:50px;
+    padding-bottom: 400px;
+    color:#fff;
+    font-size: 60px;
+    text-align: center;
+}
+
+footer{
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #836161;
+    color: #fff;
+}
+footer h2{
+    padding-bottom: 20px;
+}
+footer ul li{
+    list-style: none;
+    font-size: 20PX;
+    font-weight: 100;
+}

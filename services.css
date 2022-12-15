@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 24px;
+    background-color:#74A1E5;  
+}
+.nav-bar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.logo{
+    color:white;
+    font-size: 15px;
+}
+.spacer {
+    flex: 1 1 auto;
+}
+
+.nav-bar ul li{
+   display: inline-block;
+   list-style: none;
+   margin:10px 15px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
